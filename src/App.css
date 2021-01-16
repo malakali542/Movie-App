@@ -1,0 +1,52 @@
+body{
+    background-color: #141414;
+    color:#ffffff;
+}
+html {
+    overflow:   scroll;
+  }
+  ::-webkit-scrollbar {
+      width: 0px;
+      background: transparent; /* make scrollbar transparent */
+  }
+
+.navbar {
+    background: rgba(0,0,0,0);
+ }
+
+.title {
+    color: rgb(144, 185, 69);
+    font-size: xx-large;
+    margin-left: 0;
+    
+ }
+
+.movie-app > .row{
+    overflow-x:auto;
+    flex-wrap:nowrap;
+}
+
+.cont {
+    position: relative;
+    transition: transform 0.2s;
+}
+
+.cont:hover {
+    cursor: pointer;
+    transform: scale(1.025);
+}
+
+.cont:hover .overlay {
+    opacity: 1;
+}
+.overlay {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    transition: 0.5 ease;
+    opacity: 0;
+    bottom: 0;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+}
