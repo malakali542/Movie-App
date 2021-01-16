@@ -66,10 +66,10 @@ const App = () => {
 
 		<div className='container-fluid movie-app'>
 			<nav className="navbar bt-0 mt-0">
-				<a className="navbar-brand" href="#">
-				<img src={logo} width="200" height="200" alt=""></img>
+				<a className="navbar-brand">
+				<img src={logo} width="250" height="250" alt=""></img>
 				</a>
-				<h2 className="title">The Shoppies: Movie awards for entrepreneurs</h2>
+				<h2 className="title mr-5">Movie awards for entrepreneurs</h2>
 				<SearchBox searchValue={searchValue} setSearchValue={setSearchValue} />
 				
 			</nav>
