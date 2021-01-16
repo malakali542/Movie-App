@@ -5,7 +5,7 @@ const MovieList = (props) => {
 
 	return (
 		<>
-			{props.movies.map((movie, index) => (
+			{props.movies && props.movies.map((movie, index) => (
 				<div className="cont mr-2 ml-2">
 					<h6 className="mr-3 ml-3" >{movie.Title},{movie.Year}</h6>
 					<div className='d-flex justify-content-start'>
